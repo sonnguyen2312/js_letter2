@@ -1,0 +1,10 @@
+var a = 5;
+var b = 10;
+var c = 15;
+console.log('a= ',a,'b= ',b);
+console.log('Lớn hơn: ',a > b);
+console.log('Bé hơn: ',a < b);
+console.log('Bằng: ',a == b);
+console.log('Khác: ',a != b);
+console.log('Lớn hơn hoặc bằng: ', a >= b);
+console.log('Bé hơn hoặc bằng: ',a <= b);
