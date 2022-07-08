@@ -75,3 +75,16 @@ document.getElementById('btnTimSoLonNhat').onclick = function () {
     //In kết quả ra màn hình
     document.getElementById('ketQuaBai2').innerHTML = 'Số lớn nhất là: ' + ketQua;
 }
+//Bài tập 3
+document.getElementById('btnTinhTien').onclick = function () {
+    var soGioLam = Number(document.getElementById('soGioLam').value);
+    var tienCong = Number(document.getElementById('tienCongTrenGio').value);
+    var tienLuong = 0;
+    if (soGioLam <= 40) {
+        tienLuong = soGioLam * tienCong;
+    }
+    else {
+        tienLuong = 40*tienCong + (soGioLam - 40)*tienCong*1.5;
+    }
+    document.getElementById('tienLuong').innerHTML = 'Tiền lương: ' + tienLuong;
+}
